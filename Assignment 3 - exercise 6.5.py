@@ -13,13 +13,12 @@ text = input("Enter text: ")
 woord_counts = {}
 
 for i in text.lower().split():
-    if i in word_counts:
-        woord-counts[i] += 1
+    if i in woord_counts:
+        woord_counts[i] += 1
     else: 
         woord_counts[i] = 1
 
 print(f'{"WORD" : <12}COUNT')
     
 for i, count in sorted(woord_counts.items()):
-    print(f'{i: < 12}{count}')
-
+    print(f'{i:<12}{count}')
