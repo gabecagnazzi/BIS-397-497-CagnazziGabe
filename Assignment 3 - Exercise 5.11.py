@@ -3,7 +3,7 @@
 """
 Created on Tue Jun  9 09:24:32 2020
 
-@author: gabecagnazzi
+# author: gabecagnazzi
 """
 
 # 5.11 Sumnmarizing Letters in a String
@@ -11,7 +11,7 @@ Created on Tue Jun  9 09:24:32 2020
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 def summarize_letters(string):
-    char_counter = ()
+    char_counter = ()   #Did you mean to set this as a list?
     string_lc =string.lower()
     
     for i in string_lc:
