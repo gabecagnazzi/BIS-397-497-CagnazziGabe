@@ -5,7 +5,7 @@ Created on Tue Jun  9 11:45:42 2020
 
 @author: gabecagnazzi
 """
-
+# Please make sure your variables are defined correctly
 
 #Exercise 6.5: Counting Duplicate Words
 
